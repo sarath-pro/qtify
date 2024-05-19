@@ -6,5 +6,10 @@ button {
     padding: 10px 16px;
     font-family: Poppins;
     position: relative;
-    right: 16px
+    right: 16px;
+
 }
+
+button:hover {
+    cursor: pointer;
+}   

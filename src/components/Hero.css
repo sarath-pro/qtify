@@ -1,0 +1,18 @@
+#hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--black);
+    color: var(--white);
+    padding: 16px;
+}
+
+#hero-image {
+    width: 212px;
+    height: 212px;
+}
+
+.hero-text {
+    font-family: "Poppins";   
+    font-size: 32px;
+}

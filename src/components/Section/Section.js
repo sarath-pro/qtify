@@ -9,12 +9,14 @@ function Section() {
     useEffect(()=>{
         const fetchData = async () => {
             try {
-                let url = 'https://qtify-backend-labs.crio.do/albums/top'
-                let response = await axios.get(url)
+                let url1 = 'https://qtify-backend-labs.crio.do/albums/top'
+                let response = await axios.get(url1)
                 console.log(response.data)
                 setData(response.data)
                 console.log('data')
                 console.log(data)
+                let url2 = 'https://qtify-backend-labs.crio.do/albums/new'
+                let response2 = await axios.get(url1)
             } catch(error) {
                 console.log(error)
             }

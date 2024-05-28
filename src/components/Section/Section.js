@@ -16,7 +16,7 @@ function Section() {
                 console.log('data')
                 console.log(data)
                 let url2 = 'https://qtify-backend-labs.crio.do/albums/new'
-                let response2 = await axios.get(url1)
+                let response2 = await axios.get(url2)
             } catch(error) {
                 console.log(error)
             }

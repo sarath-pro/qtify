@@ -1,14 +1,14 @@
 import './App.css';
 import Hero from './components/Hero';
 import Navbar from "./components/Navbar"
-import Section from "./components/Section/Section"
+import Content from "./components/Content/Content"
 
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Hero />
-      <Section />
+      <Content />
     </div>
   );
 }

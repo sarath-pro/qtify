@@ -6,7 +6,7 @@ import Card from "../Card";
 import Carousel from "../Carousel/Carousel";
 
 function Section({ title, data, type }) {
-  const [fullView, setFullView] = useState(true);
+  const [fullView, setFullView] = useState(false);
   let cards = []
   console.log('data is ::', data)
   if(data && data.length>0) {

@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     color: var(--white);
+    margin: 20px
 }
 
 .grid {
@@ -9,4 +10,5 @@
     flex-wrap: wrap;
     column-gap: 40px;
     row-gap: 24px;
+    margin: 20px;
 }

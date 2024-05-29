@@ -25,8 +25,8 @@ function Content() {
     }, [])
     return (
         <>
-            <Section data={topAlbums}/>
-            <Section data={newAlbums}/>
+            <Section title={'Top Albums'} data={topAlbums} type={'Album'}/>
+            <Section title={'New Albums'} data={newAlbums} type={'Album'}/>
         </>
     )
 }

@@ -13,20 +13,18 @@ import { Box, ThemeProvider, createTheme } from "@mui/system";
 //   },
 // });
 
-function Card({ image, name, count }) {
-  // console.log(image);
-  if (!image) {
-    image = "/assets/filler.png";
-    name = "New Bollywood";
-    count = "100";
-  }
+function Card({ data }) {
+  // console.log(image)
+  let image = data.image
+  let count = data.follows ? data.follows+" Follows" : data.likes+" Likes"
+  let name = data.title
   return (
     // <ThemeProvider theme={theme}>
       <div className={classes.card}>
         <div className={classes.container}>
           <img className={classes["card-img"]} src={image} alt="#" />
           {/* <div> */}
-          <Chip className={classes["chips"]} label={count + " Follows"} />
+          <Chip className={classes["chips"]} label={count} />
           {/* </div> */}
         </div>
         <div className={classes["card-name"]}>{name}</div>

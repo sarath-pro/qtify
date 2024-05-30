@@ -12,3 +12,8 @@
     row-gap: 24px;
     margin: 20px;
 }
+
+.MuiTab-textColor-Primary {
+    color: var(--white)
+}
+
